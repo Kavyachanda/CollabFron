@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/angular.min.js"></script> 
+ <script type="text/javascript" src="lib/angular-route.min.js"></script>
+<script type="text/javascript" src="js/registercntrl.js"></script>
+
+</head>
+
+
+<body  data-ng-app="regmyApp" >
+
+<div class="container">
+    <div class="row">
+		<div class="col-md-4 col-md-offset-4">
+    		<div class="panel panel-default">
+			  	<div class="panel-heading">
+			    	<h3 class="panel-title">Please sign up</h3>
+			 	</div>
+			  	<div class="panel-body">
+			    	<form role="form" data-ng-submit="submit()" action="" data-ng-controller="Registercontroller">
+                    <fieldset>
+			    	  	<div class="form-group">
+			    		    <input class="form-control" placeholder="Username" data-ng-model="username" type="text">
+			    		    
+			    		</div>
+			    		
+			    		<div class="form-group">
+			    			<input class="form-control" placeholder="Password" data-ng-model="password" type="password" value="">
+			    		</div>
+			    		<div class="form-group">
+			    			<input class="form-control" placeholder="ConfirmPassword" data-ng-model="confirmpassword" type="password" value="">
+			    		</div>
+			    		<div class="form-group">
+			    		    <input class="form-control" placeholder="Email" data-ng-model="email" type="text">
+			    		</div>
+			    		<div class="form-group">
+			    		    <input class="form-control" placeholder="Date of Birth" data-ng-model="dob" type="date">
+			    		</div>
+			    		<div class="form-group">
+			    		    <input class="form-control" placeholder="Gender" data-ng-model="gender" type="text">
+			    		</div>
+			    		<div class="form-group">
+			    		    <input class="form-control" placeholder="phone" data-ng-model="phone" type="text">
+			    		</div>
+			   			    	
+			    		    <button class="btn btn-lg btn-primary btn-block" type="submit" >register</button>
+			    		
+			    	</fieldset>
+			      	</form>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+ <!--  <h3>Login</h3>
+  Form to get username & Password
+   <form>
+      <label>Username </label><input type="text" data-ng-model="username" /><br><br>
+      <label>Password </label><input type="password" data-ng-model="password"><br>
+      <button  type="submit" data-ng-click="submit()">login</button>
+  </form>
+
+Displaying the Array using ng-repeat
+  -->
+</body>
+</html>
+
+
+
+<!-- <div class="login">
+	
+		<div class="main-agileits">
+				<div class="form-w3agile">
+					<h3>Register</h3>
+					<hr>
+						<div class="key">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						 <input id="username" name="username" type="text" placeholder="user name" class="form-control input-md" 
+  pattern=".{5,10}" value="" title="minimum length for username is 5" >
+							<div class="clearfix"></div>
+						</div>
+						
+						<div class="key">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						<input id="password" name="password" type="password" placeholder="Password" class="form-control input-md" 
+  pattern=".{3,8}" value="" title="minimum length for passsword is 3">
+  <div class="clearfix"></div>
+						</div>
+						
+						<div class="key">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+							 <input id="confirmpassword" name="confirmpassword" type="password" placeholder="Confirm Password" class="form-control input-md"
+   pattern=".{3,8}" value="" title="minimum length for passsword is 3">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+  <input id="email" name="email" type="text" placeholder="email address" class="form-control input-md" >
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+<input id="phone" name="phone" type="text" placeholder="Phone Number" class="form-control input-md" 
+   pattern="^[789]\d{9}$" value="" title="Enter valid mobile number">							
+  <div class="clearfix"></div>
+						</div>
+						<input type="submit" value="Register">
+						<a href="LOGIN" class="forg-right">Already have an Account? Login here</a>
+					
+				</div>
+			
+				
+			</div>
+		</div>
+		</div>
+		</form>
+		 -->
+ 
