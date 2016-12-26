@@ -1,4 +1,4 @@
-# DIGITAL TEAM - NIIT Collaboration Project 2
+# DIGITAL TEAM - NIIT Project ②
 
 ###	WebContent
 -	**HTML** 
@@ -41,3 +41,22 @@ Contains all java script files and angular controllers.
 		- images : Contains all the used in UI Design
 		- js 	  : Contains all the js files used in the UI Design
 ****
+##Frameworks used
+-	**Bootstrap v3.3.7**
+	Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing  	  responsive, mobile-first web sites. [Click here to downlaod Bootstrap 3.3.7](https://github.com/twbs/bootstrap/releases/download/v3.3.7/bootstrap-3.3.7-dist.zip) or `npm install bootstrap@3`
+	- bootstrap.min.css
+	- bootstrap-theme.css
+	- bootstrap.min.js
+
+- **Angular JS v1.5.8**
+	AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write. [Click here to downlaod Angular js v1.5.8](https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js) or `npm install angular` 
+	- angular.min.js
+	
+-	**SockJS**
+	SockJS is a browser JavaScript library that provides a WebSocket-like object. SockJS gives you a coherent, cross-browser, Javascript API which creates a low latency, full duplex, cross-domain communication channel between the browser and the web server.SockJS-node is a SockJS server for Node.js. [Click here to downlaod SockJS](http://cdn.sockjs.org/sockjs-0.3.4.min.js) or `npm install sockjs`
+	- sockjs.min.js
+	
+- **Stomp JS**
+	Stomp js provides a STOMP client for Web browser (using Web Sockets) or node.js applications.
+  [Click here to downlaod Stomp JS](https://raw.githubusercontent.com/jmesnil/stomp-websocket/master/lib/stomp.min.js) or`npm install stompjs`
+	- stomp.min.js
