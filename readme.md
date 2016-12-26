@@ -29,6 +29,7 @@ Contains all java script files and angular controllers.
      
      
 -	**lib** : Contains all the angular script files.
+
 	- angular-cookies.js
         - angular-route.js
         - angular.min.js
