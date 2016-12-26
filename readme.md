@@ -29,18 +29,18 @@ Contains all java script files and angular controllers.
      
      
 -	**lib** : Contains all the angular script files.
-		- angular-cookies.js
+	- angular-cookies.js
         - angular-route.js
         - angular.min.js
         - jquery-3.1.1.js
         
 -	**resources** : Contains all the files used in UI.
 
-		- css 	 : Contains all the css files used in UI Design
-		- fonts  : Contains all the font files used in UI Design
-		- images : Contains all the used in UI Design
-		- js 	  : Contains all the js files used in the UI Design
-****
+	- css 	 : Contains all the css files used in UI Design
+	- fonts  : Contains all the font files used in UI Design
+	- images : Contains all the used in UI Design
+	- js 	  : Contains all the js files used in the UI Design
+		
 ##Frameworks used
 -	**Bootstrap v3.3.7**
 	Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing  	  responsive, mobile-first web sites. [Click here to downlaod Bootstrap 3.3.7](https://github.com/twbs/bootstrap/releases/download/v3.3.7/bootstrap-3.3.7-dist.zip) or `npm install bootstrap@3`
